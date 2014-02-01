@@ -18,6 +18,7 @@
 		AA3F5220189CEC82001E98F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3F51FF189CEC82001E98F0 /* Cocoa.framework */; };
 		AA3F5228189CEC82001E98F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA3F5226189CEC82001E98F0 /* InfoPlist.strings */; };
 		AA3F522A189CEC82001E98F0 /* ConvertMovToMpegTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F5229189CEC82001E98F0 /* ConvertMovToMpegTests.m */; };
+		AA3F5234189CEEAF001E98F0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3F5233189CEEAF001E98F0 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		AA3F5225189CEC82001E98F0 /* ConvertMovToMpegTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConvertMovToMpegTests-Info.plist"; sourceTree = "<group>"; };
 		AA3F5227189CEC82001E98F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA3F5229189CEC82001E98F0 /* ConvertMovToMpegTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvertMovToMpegTests.m; sourceTree = "<group>"; };
+		AA3F5233189CEEAF001E98F0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3F5234189CEEAF001E98F0 /* AVFoundation.framework in Frameworks */,
 				AA3F5200189CEC82001E98F0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +98,7 @@
 		AA3F51FE189CEC82001E98F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA3F5233189CEEAF001E98F0 /* AVFoundation.framework */,
 				AA3F51FF189CEC82001E98F0 /* Cocoa.framework */,
 				AA3F521E189CEC82001E98F0 /* XCTest.framework */,
 				AA3F5201189CEC82001E98F0 /* Other Frameworks */,
@@ -117,8 +121,7 @@
 			children = (
 				AA3F5211189CEC82001E98F0 /* CVTAppDelegate.h */,
 				AA3F5212189CEC82001E98F0 /* CVTAppDelegate.m */,
-				AA3F5214189CEC82001E98F0 /* MainMenu.xib */,
-				AA3F5217189CEC82001E98F0 /* Images.xcassets */,
+				AA3F5235189CEEB3001E98F0 /* Resources */,
 				AA3F5206189CEC82001E98F0 /* Supporting Files */,
 			);
 			path = ConvertMovToMpeg;
@@ -152,6 +155,15 @@
 				AA3F5226189CEC82001E98F0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA3F5235189CEEB3001E98F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F5214189CEC82001E98F0 /* MainMenu.xib */,
+				AA3F5217189CEC82001E98F0 /* Images.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,6 +477,7 @@
 				AA3F522F189CEC82001E98F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA3F5230189CEC82001E98F0 /* Build configuration list for PBXNativeTarget "ConvertMovToMpegTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +486,7 @@
 				AA3F5232189CEC82001E98F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
